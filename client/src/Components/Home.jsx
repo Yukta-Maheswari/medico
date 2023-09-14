@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css'
-import doctor from '../Images/Doctor.png'
+import Background from '../Images/Background.png'
 // import { Link } from "react-router-dom";
 let goToViolation=()=>{
   const violation = document.getElementById("donate"); 
@@ -24,7 +24,7 @@ export const Home = () => {
       Donate Now
     </button>
     </div>
-    <img id="doctor" src={doctor} alt="Doctor.png"/>
+    <img id="Background" src={Background} alt="Background.png"/>
     </div>
     </>
   )

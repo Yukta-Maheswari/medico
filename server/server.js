@@ -22,7 +22,7 @@ const { checkError } = require("./multerLogic");
 const path = require("path");
 require("dotenv").config();
 const corsOptions = {
-  origin: "https://medico-client.onrender.com",
+  origin: "http://localhost:3000",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };

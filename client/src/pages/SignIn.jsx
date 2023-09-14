@@ -59,7 +59,7 @@ function App() {
         <div className="imageContainer">
           <h2 className="imageHeading m-5">
             <img src={logo} alt="logo" id="logo" />
-           <b> SecondLoop</b>
+           <b> MedShare</b>
           </h2>
         </div>
 

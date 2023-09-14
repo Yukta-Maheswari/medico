@@ -1,7 +1,7 @@
 .home-text span{
   color: #4D77FF;
 }
-#doctor{
+#Background{
   height: 100%;
   width: 100%;
 }
@@ -29,10 +29,11 @@
 }
 @media screen and (max-width: 1400px) 
 {
-  #doctor{
-    height: 0;
-    width: 0;
+  #Background{
+    height: 100%;
+    width: 100%;
     display: none;
+    margin-top:auto;
   }
   #main-display{
     padding-right: 55px;
